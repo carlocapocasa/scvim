@@ -3,7 +3,8 @@ SCVim (> 3.5)
 
 A vim plugin for supercollider.
 
-This is a bugfix fork of Stephen Lumenta's scvim plugin, based on the original by Alex Norman (see: http://www.x37v.info/scvim/).
+This is based of the original scvim by Alex Norman (see:
+<http://www.x37v.info/scvim/>).
 
 Features
 
@@ -12,14 +13,6 @@ Features
 * Code Navigation (jump to definitions) via a global tags file "~/.sctags"
 * Auto-Completion of known words via tag completion
 * Launch the SuperCollider QT Help System
-
-News
-
-1.0.1
-
-* Fix "two headed monster" bug
-* Fix "stray cats" bug
-* Introduce versioning
 
 
 Installation:
@@ -34,7 +27,7 @@ Make sure the folder is named 'scvim' and drop it into your "bundle" folder, e.g
 
 Or just do:
 `
-git clone -b 1.0 git://github.com/carlocapocasa/scvim.git ~/.vim/bundle/scvim
+git clone git://github.com/sbl/scvim.git ~/.vim/bundle/scvim
 `
 
 Symlink SCVim.sc somewhere, where SuperCollider can find
